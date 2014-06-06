@@ -2,7 +2,7 @@
 
 ## 1. Ruby & the Terminal
 
-All Ruby scripts will end with the .rb extension, and can be created or edited with any standard plaintext editor, SublimeText is particually reccomended.  Being able to use nano will also be beneficial.  
+All Ruby scripts will end with the .rb extension, and can be created or edited with any standard plaintext editor, SublimeText is particually reccomended.  Being able to use nano will also be beneficial.
 
 ### Ruby
     ruby -v - check installed ruby version
@@ -13,6 +13,10 @@ All Ruby scripts will end with the .rb extension, and can be created or edited w
     irb - interactive ruby console
     irb filename.rb - execute & watch script
     
+### Pull Today's lesson Plan
+    git clone git@github.com:pifst/GARubyLesson.git
+    git checkout student
+
 ##2. Strings
 * Begin and end with a single, or double quote. "string", 'string'.  
 

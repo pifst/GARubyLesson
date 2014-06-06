@@ -5,7 +5,7 @@ puts "What is your first name?"
 first = gets.chomp
 # Then use string interpolation to print out what your first name is
 puts "My first name is: #{first}."
-#puts "My"
+
 
 # Do the same thing asking for your last name
 puts "What is your last name?"
