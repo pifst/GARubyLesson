@@ -50,31 +50,31 @@ Whenever something is being retrieved as input (keyboard, device periphal, datab
 
 #### Live example of gets 
 <code>
-2.1.0 :029 > inputString = gets
-Hello World
- => "Hello World\n"
-2.1.0 :030 > inputString
- => "Hello World\n"
-2.1.0 :031 > print "%s" %inputString
-Hello World
- => nil
-2.1.0 :032 > puts "#{inputString}"
-Hello World
- => nil
+    2.1.0 :029 > inputString = gets
+    Hello World
+     => "Hello World\n"
+    2.1.0 :030 > inputString
+     => "Hello World\n"
+    2.1.0 :031 > print "%s" %inputString
+    Hello World
+     => nil
+    2.1.0 :032 > puts "#{inputString}"
+    Hello World
+     => nil
 </code>
 
 #### Live example of gets with chomp
 <code>
-2.1.0 :033 > newString = gets.chomp
-Hi Class
- => "Hi Class"
-2.1.0 :034 > newString
- => "Hi Class"
-2.1.0 :035 > print "%s" %newStri˝ng
-Hi Class => nil
-2.1.0 :036 > puts "#{newString}
-Hi Class
- => nil
+    2.1.0 :033 > newString = gets.chomp
+    Hi Class
+     => "Hi Class"
+    2.1.0 :034 > newString
+     => "Hi Class"
+    2.1.0 :035 > print "%s" %newStri˝ng
+    Hi Class => nil
+    2.1.0 :036 > puts "#{newString}
+    Hi Class
+     => nil
 </code>
 
 ##6. String Interpolation 
