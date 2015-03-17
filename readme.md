@@ -1,4 +1,4 @@
-#Prepared Lesson Plan
+# Lesson Plan: A First Look At Ruby
 
 ## 1. Ruby & the Terminal
 
